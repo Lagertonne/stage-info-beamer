@@ -19,4 +19,10 @@ Command | Reaction
 You have to adjust the NODE_NAME variable in sendBuzzer.py , to send working info-beamer UDP commands.
 The corresponding Python-Script is listening on GPIO-Ports 2 and 3 for input.
 IMPORTANT: The button you use has to interrupt the connection. (Pull-Up Resistor at the GPIO-Port)
+Also: Replace Horn.wav with a real sound file. Due to License Reasons, I just uploaded an empty file.
 
+twitter
+-------
+This is just a simple twitter wall, which shows the tweets in chronological order on the screen. 
+Edit twitter.py for your needs, especially your tokens/secrets and the hashtag you want to search for. 
+Also: Replace arial.ttf with a proper font file. Again: License reasons.
