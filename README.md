@@ -11,12 +11,12 @@ The info-beamer node is listening for UDP-Input on Port 4444. Working commands a
 
 Command | Reaction
 --- | ---
-bl_on | Left Buzzer is pressed
-bl_off | Left Buzzer is off
-br_on | Right Buzzer is pressed
-br_off | Right Buzzer is off
+[nodeName]/buzzer:bl_on | Left Buzzer is pressed
+[nodeName]/buzzer:bl_off | Left Buzzer is off
+[nodeName]/buzzer:br_on | Right Buzzer is pressed
+[nodeName]/buzzer:br_off | Right Buzzer is off
 
+You have to adjust the NODE_NAME variable in sendBuzzer.py , to send working info-beamer UDP commands.
 The corresponding Python-Script is listening on GPIO-Ports 2 and 3 for input.
 IMPORTANT: The button you use has to interrupt the connection. (Pull-Up Resistor at the GPIO-Port)
 
-You have to adjust the NODE_NAME variable in sendBuzzer.py , to send working info-beamer UDP commands.
